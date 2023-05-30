@@ -1,0 +1,8 @@
+{
+  "title": "lksg-tool title ",
+  "dateFormat": "yyyy.MM.dd",
+  "timeFormat": "HH:MM:SS",
+  "uuidGeneratorURL": "https://www.uuidgenerator.net/api/version4",
+  "baseURL": "http://lksg.tool.localdev.me/api",
+  "irsURL": "http://lksg.tool.localdev.me/ess"
+}
