@@ -10,13 +10,12 @@ const Header = () => {
                     </svg>
                 </a>
                 <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="/investigations" className="nav-link px-2 link-secondary">Investigations</a></li>
-                    <li><a href="/companies" className="nav-link px-2 link-secondary">Companies</a></li>
-                    <li><a href="/bpns" className="nav-link px-2 link-secondary">BPNs</a></li>
+                    <li><a href="/investigations/" className="nav-link px-2 link-secondary">Investigations</a></li>
+                    <li><a href="/companies/" className="nav-link px-2 link-secondary">Companies</a></li>
+                    <li><a href="/bpns/" className="nav-link px-2 link-secondary">BPNs</a></li>
                 </ul>
             </div>
         </header>
-
     );
 }
 

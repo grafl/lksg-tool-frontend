@@ -1,6 +1,7 @@
 import config from './config.json';
 
-const Dashboard = () => {
+// @ts-ignore
+const Dashboard = ({ investigations, bpns, companies }) => {
     return (
         <main>
             <div className="pricing-header p-3 pb-md-3 mx-auto text-center">
@@ -14,7 +15,7 @@ const Dashboard = () => {
                             <h4 className="my-0 fw-normal">Investigations</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">investigations <small
+                            <h1 className="card-title pricing-card-title">{investigations}<small
                                 className="text-muted fw-light"> registered</small>
                             </h1>
                             <ul className="list-unstyled mt-3 mb-4">
@@ -30,7 +31,7 @@ const Dashboard = () => {
                             <h4 className="my-0 fw-normal">BPNs</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">bpns <small
+                            <h1 className="card-title pricing-card-title">{bpns}<small
                                 className="text-muted fw-light"> registered</small>
                             </h1>
                             <ul className="list-unstyled mt-3 mb-4">
@@ -46,7 +47,7 @@ const Dashboard = () => {
                             <h4 className="my-0 fw-normal">Companies</h4>
                         </div>
                         <div className="card-body">
-                            <h1 className="card-title pricing-card-title">companies <small
+                            <h1 className="card-title pricing-card-title">{companies}<small
                                 className="text-muted fw-light"> registered</small>
                             </h1>
                             <ul className="list-unstyled mt-3 mb-4">

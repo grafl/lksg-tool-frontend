@@ -4,5 +4,5 @@
   "timeFormat": "HH:MM:SS",
   "uuidGeneratorURL": "https://www.uuidgenerator.net/api/version4",
   "baseURL": "http://lksg.tool.localdev.me/api",
-  "irsURL": "http://lksg.tool.localdev.me/ess"
+  "irsURL": "http://lksg.tool.irs.localdev.me/ess"
 }
