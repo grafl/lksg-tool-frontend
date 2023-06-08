@@ -35,7 +35,7 @@ const useAxiosFetchVInvestigations = () => {
                 isMounted && setIsVInvestigationsLoading(false);
             }
         }
-        if(pathname === '/investigations') {
+        if(pathname === '/investigations/') {
             fetchData(dataUrl);
         }
         const cleanUp = () => {

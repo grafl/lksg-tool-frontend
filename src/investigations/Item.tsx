@@ -36,8 +36,6 @@ const Item = ({investigation}) => {
         setIsCOMPLETED_NOWorking(false);
         setIsCOMPLETED_YESWorking(false);
         setIsCOMPLETED_UNKNOWNWorking(false);
-        /* navigate('/investigations'); */
-
         let color = '';
         if(response.data.submodels[0].payload.supply_chain_impacted === 'YES') {
             color = 'text-danger';
@@ -91,6 +89,7 @@ const Item = ({investigation}) => {
         const irsPutRequest =
             { job_id: job_id, state: state, impacted: impacted};
         handleIrsPutRequest(irsPutRequest);
+        navigate('/investigations/');
     };
 
     return (
